@@ -1,0 +1,177 @@
+
+/* upper menu, drop-downd */
+
+.content {
+    width: 100%vh;
+    height: 100;
+    background-image: linear-gradient(#0a0a09, gray);
+    transition: 1s;
+    overflow: hidden;
+}
+
+/* Lorem ipsum */
+.main {
+    display: inherit;
+    width: 80%;
+    background-image: linear-gradient(#2d2e2b, #6a705d);
+    margin: 30px auto;
+    border-radius: 5px;
+    opacity: 0.6;
+    box-shadow: 3px 5px currentcolor;
+    transition: 2s;
+    overflow: hidden;
+}
+/*
+@media only screen and (min-width: 700px) {
+  .main {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    height: 900px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .main {
+    height: 1000px;
+  }
+}
+*/
+
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 10px;
+    display: inherit;
+    
+
+}
+
+/* first menu (three lines)*/
+#btn {
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+/* first menu (three lines)*/
+
+.menu {
+    width: 50px;
+    height: 4px;
+    background-color: white;
+    margin: 6px auto;
+    border-radius: 3px;
+    transition: 1s;
+
+}
+
+
+#btn3 {
+    transition: width 0.8s;
+}
+
+#btn:hover #btn3 {
+    width: 75px;
+
+}
+
+#btn2 {
+    transition: width 0.8s;
+}
+
+#btn:hover #btn2 {
+    width: 60px;
+
+}
+
+#btn1 {
+    transition: width 0.8s;
+}
+
+#btn:hover #btn1 {
+    width: 45px;
+}
+
+/* upper menu, drop-downd */
+.topNav {
+    height: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(black, #0a0a09);
+    transition: 0.5s;
+    padding-top: 10px;
+}
+
+/* upper menu, drop-downd */
+.topNav a {
+    font-family: monospace;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 1s;
+    text-align: center;
+    background-color: inherit;
+    color: #87947e;
+    width: 160px;
+
+}
+
+/* upper menu, close button */
+#closeBtn {
+    font-size: 45px;
+    padding-top: 0px;
+}
+
+/* upper menu, drop-downd */
+.navMenu {
+    width: 160px;
+    margin: 0 auto;
+    transition: 1.5s;
+}
+
+/* button to minimize text */
+.closeTxt {
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: right;
+    margin: 0px 10px 0px 0px;
+    padding: 0;
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
